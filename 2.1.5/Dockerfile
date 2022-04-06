@@ -8,6 +8,7 @@ LABEL "COPYRIGHT"="Copyright © 2021-2022 Pittsburgh Supercomputing Center. All 
 LABEL "VERSION"="2.1.5"
 
 ENV VERSION 2.1.5
+ENV LC_ALL C
 RUN apt update && \ 
 	apt install -y procps && \
 	apt-get clean && \
