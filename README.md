@@ -6,6 +6,8 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-braker2)
 
 # singularity-braker2
+<img src="https://www.biorxiv.org/content/biorxiv/early/2020/08/11/2020.08.10.245134/F1.large.jpg" width="50%" />
+
 Singularity recipe for [BRAKER2](https://github.com/Gaius-Augustus/BRAKER).
 
 ## Installing the container on Bridges 2
