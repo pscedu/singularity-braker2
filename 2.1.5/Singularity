@@ -1,5 +1,5 @@
-Bootstrap: docker
-From: quay.io/biocontainers/braker2:2.1.5--2
+Bootstrap: docker-daemon
+From: icaoberg/braker2:2.1.5
 
 %environment
     LC_ALL=C

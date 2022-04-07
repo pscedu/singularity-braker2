@@ -9,7 +9,7 @@ LABEL "VERSION"="2.1.5"
 
 ENV VERSION 2.1.5
 ENV LC_ALL C
-RUN apt update && \ 
+RUN apt update && \
 	apt install -y procps && \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
