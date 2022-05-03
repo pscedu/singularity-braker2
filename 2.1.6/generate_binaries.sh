@@ -1,6 +1,8 @@
 #!/bin/bash
 
-TOOLS=(braker.pl)
+TOOLS=(braker.pl diamond
+prothint.py augustus
+cdbfasta cdbyank)
 
 cat << EOF > template
 #!/bin/bash
